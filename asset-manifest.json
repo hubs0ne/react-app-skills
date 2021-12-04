@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-app-skills/static/css/main.ef8f45de.chunk.css",
+    "main.js": "/react-app-skills/static/js/main.d85edad6.chunk.js",
+    "main.js.map": "/react-app-skills/static/js/main.d85edad6.chunk.js.map",
+    "runtime-main.js": "/react-app-skills/static/js/runtime-main.e0a0d6da.js",
+    "runtime-main.js.map": "/react-app-skills/static/js/runtime-main.e0a0d6da.js.map",
+    "static/js/2.47078d5c.chunk.js": "/react-app-skills/static/js/2.47078d5c.chunk.js",
+    "static/js/2.47078d5c.chunk.js.map": "/react-app-skills/static/js/2.47078d5c.chunk.js.map",
+    "index.html": "/react-app-skills/index.html",
+    "static/css/main.ef8f45de.chunk.css.map": "/react-app-skills/static/css/main.ef8f45de.chunk.css.map",
+    "static/js/2.47078d5c.chunk.js.LICENSE.txt": "/react-app-skills/static/js/2.47078d5c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0a0d6da.js",
+    "static/js/2.47078d5c.chunk.js",
+    "static/css/main.ef8f45de.chunk.css",
+    "static/js/main.d85edad6.chunk.js"
+  ]
+}
