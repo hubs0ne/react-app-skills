@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 90%;
+}
+
+.App h1 {
+    text-align: center;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    justify-content: space-between;
+    border: 3px solid lightskyblue;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.page-current {
+    background: blue;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-wrapper {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    margin-bottom: 3vh;
+}
+
+.navbar-links {
+    margin-left: auto;
+}
+
+.navbar-links a {
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.post-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logout-btn {
+    margin-left: 3vh;
+}
+
+.post-filter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 3vh;
+}
+
+/* ANIMATION */
+.post-enter {
+    opacity: 0;
+}
+.post-enter-active {
+    opacity: 2;
+    transition: opacity 300ms ease-in;
+}
+.post-exit {
+    opacity: 2;
+}
+.post-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+    transform: translateX(30px);
+}
+.posts-empty {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
