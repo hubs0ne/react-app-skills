@@ -96,6 +96,17 @@
     margin-bottom: 3vh;
 }
 
+.about-body {
+    text-align: center;
+    font-size: 3vh;
+    margin: 10%;
+}
+
+.about-body a {
+    text-decoration: none;
+    color: blue;
+}
+
 /* ANIMATION */
 .post-enter {
     opacity: 0;
